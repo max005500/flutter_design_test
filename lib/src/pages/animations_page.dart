@@ -1,9 +1,8 @@
 import 'dart:math';
-
 import 'package:flutter/material.dart';
 
-class AnimationsScreen extends StatelessWidget {
-  const AnimationsScreen({Key? key}) : super(key: key);
+class AnimationsPage extends StatelessWidget {
+  const AnimationsPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

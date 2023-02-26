@@ -1,4 +1,4 @@
-import 'package:design/src/screens/screens.dart';
+import 'package:design/src/pages/pages.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Diseños App',
-      home: AnimationsScreen(),
+      home: CircularProgressBarPage(),
     );
   }
 }
