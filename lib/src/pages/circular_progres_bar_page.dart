@@ -72,7 +72,7 @@ class _MyRadiusProggres extends CustomPainter {
   _MyRadiusProggres({required this.porcent});
   @override
   void paint(Canvas canvas, Size size) {
-    final Color color = const Color(0xff615AAB);
+    const Color color = Color(0xff615AAB);
     final Offset center = Offset(size.width * 0.5, size.height * 0.5);
     final double radius = min(size.width * 0.5, size.height * 0.5);
 
